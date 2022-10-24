@@ -23,7 +23,8 @@
 
 @media (max-width:768px) {
 
-  .header { text-align: center;
+  .header {
+    text-align: center;
   }
 
 }
@@ -45,16 +46,16 @@
 }
 
 .task-element {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .element-wrapper, .title {
-  list-style:none;
+  list-style: none;
 }
 
 .input,.button{
-  outline:none;
+  outline: none;
 }
 
 .button {
@@ -162,14 +163,14 @@
 /* Edit Task */
 
 .task-element .element-wrapper .input[type=text] {
-  display:none
+  display: none
 }
 
 .task-element .element-wrapper.edit-mode .input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-element .element-wrapper.edit-mode .label {
-  display:none;
+  display: none;
 }
