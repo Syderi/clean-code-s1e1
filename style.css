@@ -50,11 +50,13 @@
   padding: 0px;
 }
 
-.element-wrapper, .title {
+.element-wrapper,
+.title {
   list-style: none;
 }
 
-.input,.button{
+.input,
+.button{
   outline: none;
 }
 
